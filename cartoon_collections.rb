@@ -10,7 +10,6 @@ def summon_captain_planet(planeteer_calls)
     planeteer_calls = planeteer_calls.concat("!")
     count += 1
   end
-planeteer_calls
 planeteer_calls.map {|string| string.capitalize}
 planeteer_calls
 end
