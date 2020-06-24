@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   count = 0 
   while count < planeteer_calls.length - 1 do
-    puts "!"
+    planeteer_calls = planeteer_calls.concat("!")
     count += 1
   end
 planeteer_calls
