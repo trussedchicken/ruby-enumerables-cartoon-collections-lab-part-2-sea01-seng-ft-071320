@@ -12,6 +12,7 @@ def summon_captain_planet(planeteer_calls)
   end
 planeteer_calls
 planeteer_calls.map {|string| string.capitalize}
+planeteer_calls
 end
 
 def long_planeteer_calls(planeteer_calls)
