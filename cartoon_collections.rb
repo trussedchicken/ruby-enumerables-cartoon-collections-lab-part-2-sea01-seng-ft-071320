@@ -5,13 +5,13 @@ def square_array(array)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.map {|string| string.capitalize}
   count = 0 
   while count < planeteer_calls.length - 1 do
     puts "!"
     count += 1
   end
 planeteer_calls
+planeteer_calls.map {|string| string.capitalize}
 end
 
 def long_planeteer_calls(planeteer_calls)
